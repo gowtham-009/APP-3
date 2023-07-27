@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 76px;
+    background-color: rgb(11, 141, 211);
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    height: 76px;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: white;
+    font-size: 40px;
+}
+.src{
+    display: flex;
+    width: 650px;
+    height: 76px;
+    justify-content: center;
+    align-items: center;
+}
+.src input{
+    width: 400px;
+    height: 48px;
+    background-color: rgb(11, 141, 211);
+    border: none;
+    border-bottom: 2px solid grey;
+    color: aliceblue;
+}
+.src .srbtn{
+    width: 40px;
+    height:48px;
+    font-size: 25px;
+    border: none;
+    background-color:rgb(11, 141, 211);
+    border-bottom: 2px solid grey;
+    color: aliceblue;
+}
+.src .srbtn:hover{
+    color: green;
+}
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    height: 76px;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks li a{
+    font-size: 25px;
+    padding: 10px;
+    color: aliceblue;
+}
+.navlinks li a:hover{
+    color:greenyellow;
+}
+.righticon{
+    display: flex;
+    width: 200px;
+    height: 76px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.righticon li a{
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+}
+.righticon li a:hover{
+    color: greenyellow;
+}
+.main-container{
+width: 100%;
+height: 100%;
+}
+.tittle{
+    width: 100%;
+    height: 70px;
+    
+    text-align: center;
+    color: black;
+}
+.tittle span{
+    color: black;
+}
+.main-box{
+
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    margin-top:2%;
+}
+
+.box{
+    width: 50%;
+    height: 400px;
+    margin-top:1%;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+.pic{
+    width:400px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pic img{
+    width:400px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    
+    width: 700px;
+    height: 300px;
+    font-size:25px;
+    text-align: left;
+    
+}
+.lnbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 400px;
+    height: 80px;
+  
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.lnbtn .btn1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid green;
+    background-color:rgb(200, 180, 219);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.lnbtn .btn1:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.footer-container{
+width: 100%;
+height: 100%;
+}
+.foot{
+    width: 100%;
+    height: 450px;
+    background-color:rgb(11, 141, 211);
+    border-radius: 100px 100px 0 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.fotercontain{
+    width: 1000px;
+    height: 450px;
+   
+    display: flex;
+}
+.boxf{
+    width: 400px;
+    height:350px;
+    
+}
+.boxf1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tithead{
+    width: 270px;
+    height: 200px;
+  
+}
+.tithead span{
+    font-size: 45px;
+    color:black;
+}
+.paraff p{
+    margin-top: 3%;
+    font-size: 18px;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.offadd{
+    width: 270px;
+    height: 200px;
+    margin-top: 6%;
+
+}
+.offadd span{
+    font-size: 25px;
+    color:black;
+    text-decoration: underline;
+}
+.boxf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ph{
+    width: 270px;
+    height: 100px;
+    margin-top:10%;
+}
+.ph span{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.boxf3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    width: 270px;
+    height: 200px;
+    margin-top: 7%;
+
+}
+.navlinksf{
+    list-style-type: none;
+    display: flex;
+    margin-top: 4%;
+
+}
+.new span{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
+.navlinksf li a{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.navlinksf li a:hover{
+    color: red;
+}
